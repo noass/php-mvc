@@ -1,12 +1,16 @@
 <?php
 
-class App {
+Class App {
 
-    public function _construct(){
-        print_r($_GET);
+    public function __construct(){
+        $url = $this->splitURL();
+
+        print_r($url);
+        
     }
 
     private function splitURL(){
-
+            return explode("/", $_GET['url']);
     }
+
 }

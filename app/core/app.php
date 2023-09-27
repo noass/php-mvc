@@ -5,12 +5,13 @@ Class App {
     public function __construct(){
         //$url = $this->splitURL();
 
-        print_r($this->splitURL());
+        show($this->splitURL());
         
     }
 
     private function splitURL(){
-            return explode("/", $_GET['url']);
+        //var_dump($_GET);
+        return explode("/", $_GET['url']);
     }
 
 }

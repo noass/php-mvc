@@ -10,7 +10,7 @@ Class App {
     }
 
     private function splitURL(){
-        //var_dump($_GET);
+        echo(var_dump(trim($_GET["url"])));
         return explode("/", trim($_GET['url']));
     }
 

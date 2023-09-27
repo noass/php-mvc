@@ -3,9 +3,9 @@
 Class App {
 
     public function __construct(){
-        $url = $this->splitURL();
+        //$url = $this->splitURL();
 
-        print_r($url);
+        print_r($this->splitURL());
         
     }
 

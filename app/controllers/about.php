@@ -1,10 +1,10 @@
 <?php
 
-Class Home{
+Class About{
 
     function index(){
         //echo "home controller, index method/function";
-        $this->view("home");
+        $this->view("about");
     }
 
     function view($view){

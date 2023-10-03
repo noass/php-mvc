@@ -15,7 +15,7 @@ Class Controller {
             include "../app/models/" . $model . ".php";
             return $model = new $model();
         }
-
+        echo "Model file was not found...";
         return false;
     }
 

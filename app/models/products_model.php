@@ -1,6 +1,6 @@
 <?php
 
-class ProductsModel extends BaseModel{
+class Products_Model extends BaseModel{
     private $product = null;
 
     function getProductByID(){

@@ -1,6 +1,6 @@
 <?php
 
-class OrderModel {
+class Order_Model {
     private $order_id = null;
     private $customer_id = null;
     private $order_date = null;
@@ -12,10 +12,10 @@ class OrderModel {
     private $status_name = null;
 
     private function setStatusName(){
-            $this->status_name = $this->retrieveStatusName();
+        $this->status_name = $this->retrieveStatusName();
     }
 
     private function retrieveStatusName(){
-        return ;
+        return;
     }
 }
